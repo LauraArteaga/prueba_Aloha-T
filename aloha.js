@@ -38,7 +38,7 @@ function show_accomodation(){
     console.log("CERRARLO")
     map.removeLayer(marker);
   });
-  $("#map.leaflet-marker-icon leaflet-zoom-animated leaflet-clickable").click(function(){
+  $("img.leaflet-marker-icon leaflet-zoom-animated leaflet-clickable").click(function(){
     console.log("HOLI")
   });
   //$("#map .leaflet-popup-content a").html("holiS");
